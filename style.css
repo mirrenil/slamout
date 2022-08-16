@@ -92,9 +92,10 @@ li {
 
 }
 
-.contact h3 {
+.contact h4 {
     display: flex;
     justify-content: center;
+    padding-top: 2%;
 }
 
 button {
@@ -195,7 +196,8 @@ a:visited {
     }
 
     footer {
-        height: 50rem;
+        height: 40rem;
+        padding: 0;
     }
 
     .footer-links {
@@ -213,4 +215,14 @@ a:visited {
     .ul-second {
         margin-bottom: 2rem;
     }
+
+    .contact {
+        padding: 0;
+        height: 105vh;
+    }
+
+    .contact-info {
+        margin: 0;
+    }
+
 }
