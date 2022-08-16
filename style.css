@@ -138,6 +138,11 @@ a:link {
     color: white;
 }
 
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 .product {
     display: flex;
     flex-direction: column;
