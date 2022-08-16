@@ -31,8 +31,18 @@ header {
     flex-direction: column;
     align-items: center;
     background-color: gainsboro;
-    height: 20rem;
+    height: 25rem;
     font-size: 2rem;
+}
+
+.signup input {
+    width: 20rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 footer {
@@ -153,8 +163,27 @@ a:visited {
     font-size: 2rem;
 }
 
+.product p {
+    width: 300px;
+}
 
-@media (max-width: 1024px) {}
+
+@media (max-width: 1024px) {
+    .news-products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        height: 20rem;
+        padding: 3rem;
+    }
+
+    .footer-links {
+        padding: 2rem;
+    }
+}
 
 @media (max-width: 640px) {
     .news-products {
@@ -166,14 +195,22 @@ a:visited {
     }
 
     footer {
-        height: 20rem;
+        height: 50rem;
     }
 
     .footer-links {
+        display: flex;
         flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .ul-first {
+        margin-bottom: 2rem;
     }
 
     .ul-second {
-        flex-wrap: wrap;
+        margin-bottom: 2rem;
     }
 }
