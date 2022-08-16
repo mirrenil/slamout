@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.header-name {
+    padding: 4rem;
+}
+
+.news {
+    font-size: 2rem;
+
+}
+
+.news-products {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gainsboro;
+    height: 20rem;
+}
+
+footer {
+    background-color: #54b1d9;
+    height: 40rem
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10rem;
+}
+
+.ul-first {
+    flex-direction: column;
+}
+
+.ul-second {
+
+    flex-direction: column;
+}
+
+.ul-third {
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    color: white;
+    font-size: 2rem;
+}
