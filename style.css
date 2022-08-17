@@ -190,6 +190,9 @@ a:visited {
 }
 
 @media (max-width: 640px) {
+
+
+
     .news-products {
         display: flex;
         flex-direction: column;
@@ -199,16 +202,16 @@ a:visited {
     }
 
     footer {
-        height: 40rem;
+        height: 30rem;
         padding: 0;
     }
 
     .footer-links {
         display: flex;
-        flex-wrap: wrap;
-        align-content: center;
+        flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
+        padding: 2rem;
     }
 
     .ul-first {
@@ -221,11 +224,15 @@ a:visited {
 
     .contact {
         padding: 0;
-        height: 105vh;
+        height: 160vh;
     }
 
     .contact-info {
         margin: 0;
+    }
+
+    .header-name {
+        padding: 2rem;
     }
 
 }
