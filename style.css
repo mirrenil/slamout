@@ -67,8 +67,11 @@ footer {
 }
 
 .ul-third {
+    display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
 
 ul {
     list-style-type: none;
