@@ -21,6 +21,6 @@ Mobil: 640px
 
 Länk till repo: https://github.com/mirrenil/slamout
 
-Länk till server: https://mirrenil.github.io/slamout/can.html
+Länk till server: https://mirrenil.github.io/slamout/index.html
 
 
