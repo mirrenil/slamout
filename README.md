@@ -19,6 +19,8 @@ Läsplatta: 1024px
 Mobil: 640px
 
 
-https://github.com/mirrenil/slamout
+Länk till repo: https://github.com/mirrenil/slamout
+
+Länk till server: https://mirrenil.github.io/slamout/can.html
 
 
