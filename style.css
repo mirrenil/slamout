@@ -4,188 +4,185 @@
     font-family: "Raleway", sans-serif;
 }
 
-@media (min-width: 1440px) {
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
 
-    header {
-        display: flex;
-        justify-content: space-evenly;
-    }
+.logo {
+    position: absolute;
+    left: 2%;
+    top: 5%;
+}
 
-    .logo {
-        position: absolute;
-        left: 2%;
-        top: 5%;
-    }
+.header-name {
+    padding: 4rem;
+}
 
-    .header-name {
-        padding: 4rem;
-    }
+.pink-court {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
-    .pink-court {
-        position: relative;
-        text-align: center;
-        color: white;
-    }
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px black;
+}
 
-    .centered-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 4rem;
-        text-shadow: 1px 1px 1px black;
-    }
+.news {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .news {
-        font-size: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gainsboro;
+    height: 25rem;
+    font-size: 2rem;
+}
 
-    .signup {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: gainsboro;
-        height: 25rem;
-        font-size: 2rem;
-    }
+.signup input {
+    width: 20rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
 
-    .signup input {
-        width: 20rem;
-        height: 2rem;
-        font-size: 1.5rem;
-        border-radius: 5px;
-        border: none;
-        margin-bottom: 1rem;
-        padding: 1rem;
-    }
+footer {
+    background-color: #54b1d9;
+    height: 30rem;
+}
 
-    footer {
-        background-color: #54b1d9;
-        height: 30rem;
-    }
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10rem;
+}
 
-    .footer-links {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: flex-start;
-        padding: 10rem;
-    }
+.ul-first {
+    flex-direction: column;
+}
 
-    .ul-first {
-        flex-direction: column;
-    }
+.ul-second {
 
-    .ul-second {
+    flex-direction: column;
+}
 
-        flex-direction: column;
-    }
-
-    .ul-third {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.ul-third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
-    li {
-        color: white;
-        font-size: 2rem;
-    }
+li {
+    color: white;
+    font-size: 2rem;
+}
 
-    .contact {
-        padding: 4rem;
-        background-color: gainsboro;
-        height: 40rem;
-        font-size: 2rem;
-        height: 125vh;
+.contact {
+    padding: 4rem;
+    background-color: gainsboro;
+    height: 40rem;
+    font-size: 2rem;
+    height: 125vh;
 
-    }
+}
 
-    .contact h4 {
-        display: flex;
-        justify-content: center;
-        padding-top: 2%;
-    }
+.contact h4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
 
-    button {
-        width: 8rem;
-        height: 4rem;
-        font-size: 1.5rem;
-        border-radius: 5px;
-        margin-bottom: 1rem;
-        background-color: #54b1d9;
-        color: white;
-        border: none;
-        margin-bottom: 2rem;
-    }
+button {
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background-color: #54b1d9;
+    color: white;
+    border: none;
+    margin-bottom: 2rem;
+}
 
-    .contact input {
-        width: 20rem;
-        height: 2rem;
-        font-size: 1.5rem;
-        border-radius: 5px;
-        border: none;
-        margin-bottom: 1rem;
-        padding: 1rem;
-    }
+.contact input {
+    width: 20rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
 
-    .contact textarea {
-        width: 20rem;
-        height: 10rem;
-        font-size: 1.5rem;
-        border-radius: 5px;
-        border: none;
-        margin-bottom: 1rem;
-        padding: 1rem;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+.contact textarea {
+    width: 20rem;
+    height: 10rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .contact-info {
-        font-size: 1.1rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.contact-info {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    a:link {
-        text-decoration: none;
-        color: white;
-    }
+a:link {
+    text-decoration: none;
+    color: white;
+}
 
-    a:visited {
-        text-decoration: none;
-        color: white;
-    }
+a:visited {
+    text-decoration: none;
+    color: white;
+}
 
-    .product {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        padding: 2rem;
-        height: 80%;
-        font-size: 2rem;
-    }
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    height: 80%;
+    font-size: 2rem;
+}
 
-    .product p {
-        width: 300px;
-    }
+.product p {
+    width: 300px;
 }
 
 
